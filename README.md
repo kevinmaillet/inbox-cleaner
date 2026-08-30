@@ -92,6 +92,8 @@ go test ./...
 
 Tests cover malformed and missing headers, `List-ID`, multiple unsubscribe values, HTTP and mailto unsubscribe methods, one-click headers, conservative classification, unrelated lists on the same domain, deterministic sorting, retained Gmail message IDs, and ordinary personal mail.
 
+GitHub Actions verifies formatting and runs the race-enabled unit test suite on pull requests and pushes to `main`.
+
 ## Next milestone: safe cleanup
 
 Bulk trash/archive should add the `gmail.modify` scope, persist scan results by subscription key, re-resolve message IDs before acting, show the exact count and subscription name, require confirmation unless `--yes` is present, and use Gmail batch modification to add/remove system labels. Trash must add `TRASH`; archive must remove `INBOX`. Permanent deletion should remain out of scope.
