@@ -1,6 +1,9 @@
 # OAuth material and local build output.
 credentials.json
 token.json
-inboxcleaner
+/inboxcleaner
+*.test
+*.out
+go.work
+go.work.sum
 *.zip
-

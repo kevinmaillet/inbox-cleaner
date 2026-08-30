@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"inboxcleaner/internal/mailbox"
+	"github.com/kevinmaillet/inbox-cleaner/internal/mailbox"
 )
 
 // ParsedHeaders is the normalized subset used by classification and grouping.

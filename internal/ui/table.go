@@ -6,7 +6,7 @@ import (
 	"text/tabwriter"
 	"time"
 
-	"inboxcleaner/internal/subscriptions"
+	"github.com/kevinmaillet/inbox-cleaner/internal/subscriptions"
 )
 
 func PrintSubscriptions(w io.Writer, items []subscriptions.Subscription, now time.Time) error {

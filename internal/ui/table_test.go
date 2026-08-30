@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"inboxcleaner/internal/subscriptions"
+	"github.com/kevinmaillet/inbox-cleaner/internal/subscriptions"
 )
 
 func TestPrintSubscriptions(t *testing.T) {

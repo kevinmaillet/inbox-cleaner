@@ -12,7 +12,7 @@ import (
 	"sync"
 	"time"
 
-	"inboxcleaner/internal/mailbox"
+	"github.com/kevinmaillet/inbox-cleaner/internal/mailbox"
 )
 
 const apiBaseURL = "https://gmail.googleapis.com/gmail/v1/users/me"

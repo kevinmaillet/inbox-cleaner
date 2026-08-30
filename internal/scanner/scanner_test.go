@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"inboxcleaner/internal/mailbox"
+	"github.com/kevinmaillet/inbox-cleaner/internal/mailbox"
 )
 
 type fakeSource struct {

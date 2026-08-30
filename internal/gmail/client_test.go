@@ -10,7 +10,7 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"inboxcleaner/internal/mailbox"
+	"github.com/kevinmaillet/inbox-cleaner/internal/mailbox"
 )
 
 func TestStreamMetadataPaginatesAndFetchesMetadataOnly(t *testing.T) {

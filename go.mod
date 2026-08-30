@@ -1,4 +1,4 @@
-module inboxcleaner
+module github.com/kevinmaillet/inbox-cleaner
 
 go 1.23.0
 

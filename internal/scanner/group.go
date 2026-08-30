@@ -6,8 +6,8 @@ import (
 	"sort"
 	"strings"
 
-	"inboxcleaner/internal/mailbox"
-	"inboxcleaner/internal/subscriptions"
+	"github.com/kevinmaillet/inbox-cleaner/internal/mailbox"
+	"github.com/kevinmaillet/inbox-cleaner/internal/subscriptions"
 )
 
 type grouper struct {

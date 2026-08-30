@@ -11,10 +11,10 @@ import (
 	"syscall"
 	"time"
 
-	"inboxcleaner/internal/config"
-	"inboxcleaner/internal/gmail"
-	"inboxcleaner/internal/scanner"
-	"inboxcleaner/internal/ui"
+	"github.com/kevinmaillet/inbox-cleaner/internal/config"
+	"github.com/kevinmaillet/inbox-cleaner/internal/gmail"
+	"github.com/kevinmaillet/inbox-cleaner/internal/scanner"
+	"github.com/kevinmaillet/inbox-cleaner/internal/ui"
 )
 
 func main() {
